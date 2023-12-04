@@ -1,0 +1,231 @@
+body{
+
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 500px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 900px;
+    color: white;
+}
+
+bold{
+    color: rgb(216, 90, 101);
+    font-size: 20px;
+}
+
+.head{
+    display:flex;
+    justify-content: space-between;
+    height: 52px;
+    background-color: rgb(168, 159, 159);
+    position: absolute;
+    position: fixed;
+    top: 5px;
+    left: 0px;
+    right: 0px;
+}
+.left{
+    background-color: lightpink;
+    width: 300px;
+}
+
+.banner{
+    width: 100%;
+    height: 52px;
+}
+
+.mid{
+    display: flex;
+    max-width: 400px;
+   min-width: 200px;
+   flex: 1;
+   justify-content: center;
+   }
+
+.search-button{
+    width: 
+}
+
+
+.tooltip{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 60px;
+    position: relative;
+    top: -60px;
+    right: -270px;
+    opacity: 0;
+}
+.search-pic.tooltip:hover{
+opacity: 1;
+cursor: pointer;
+}
+.search-pic{
+    width: 50px;
+    position: relative;
+    top: -50px;
+    right: -350px;
+}
+
+.Search{
+    flex: 1;
+  width: 400px;
+    font-size: 20px;
+    height: 40px;
+}
+
+.right{
+    display: flex;
+    width: 250px;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.icon-holder{
+    display: flex;
+}
+
+.home-button{
+    background-color: transparent;
+    border: none;
+}
+
+.home:active{
+    cursor: progress;
+}
+
+.home{
+    width: 30px;
+}
+.home-text{
+    color: white;
+    margin-top: 0px;
+}
+
+.headtext{
+  color: white;
+  margin-bottom: 0px;  
+}
+
+.headtext-1{
+  color: white;
+  padding-left: 100px; 
+  margin-top: 0px; 
+}
+
+
+.pic-c-1{
+    display: flex;
+    justify-content: center;
+}
+
+.headbutton{
+    display: flex;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 900px;
+    border: 1px;
+    border-radius: 25px;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    transform: 0.20s;
+    margin-top: 50px;
+   
+}
+
+.headbutton:hover{
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+}
+
+.theo-1{
+    position: relative;
+    
+    align-items: start;
+}
+
+.theo-2{
+    background-color: rgb(49, 48, 48);
+    position: absolute;
+    right: 200px;
+    opacity: 0;
+    pointer-events: none;
+    padding: 10px;
+    transition: 0.15s;
+    top: -100px;
+}
+
+.headbutton-1{
+    display: flex;
+    font-family:  'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px;
+    border-radius: 25px;
+    width: 300px;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    transform: 0.20s;
+    margin-top: 50px;
+    cursor: progress;
+    margin-bottom: 30px;
+}
+
+.headbutton-1:hover{
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+}
+
+
+.headbutton-1:hover .theo-2{
+    opacity: 1;
+    cursor: progress;
+}
+
+.text{
+    font-size: 15px;
+}
+
+.picture{
+    width: 300px;
+}
+
+.body-1{
+    display: flex;
+   
+    justify-content: center;
+}
+
+.body-2 .para{
+    font-size: 300px;
+}
+
+.Contact{
+    border: 6px;
+    border-width: 6px;
+    background-color: black;
+    color: white;
+    border-color: rgb(255, 253, 253);
+    border-radius: 25px;
+}
